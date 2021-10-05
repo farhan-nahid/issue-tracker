@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Issue Tracker</title>
+    <title>Issues Tracker</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -15,7 +16,9 @@
   </head>
   <body onload="fetchIssues()">
     <div class="container">
-      <h1>Issue Tracker:</h1>
+      <h1>Issues Tracker:</h1>
+      <p>Total Issues: <span id="total__issue">0</span></p>
+      <p>Open Issues: <span id="open__issue">0</span></p>
       <div class="jumbotron">
         <h3>Add New Issue:</h3>
         <form id="issueInputForm">
